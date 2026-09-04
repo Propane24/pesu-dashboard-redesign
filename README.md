@@ -1,62 +1,83 @@
 # PESU Dashboard Redesign
 
-> A modern redesign of the PES University student dashboard focused on improving usability, accessibility, and visual consistency while preserving the familiar student workflow.
+> A modern, responsive redesign of the PES University student dashboard focused on improving usability, accessibility, and visual consistency.
 
 ---
 
 ## Overview
 
-The PES University dashboard is an essential platform for students to access attendance, timetables, academic records, and other day-to-day information. While the existing platform is functionally effective, its interface can be improved through better organization, cleaner layouts, and a more modern user experience.
+The PES University dashboard is an essential platform for students to access attendance, timetables, academic records, and other academic services. While the original platform is functionally effective, its interface can be improved through cleaner layouts, better spacing, improved navigation, and a stronger visual hierarchy.
 
-This project reimagines the dashboard with a contemporary interface that emphasizes readability, intuitive navigation, responsive layouts, and consistent design principles. The objective is to demonstrate how thoughtful UI and UX improvements can make frequently used student workflows faster and more comfortable without changing the platform's core functionality.
+This project reimagines the dashboard with a modern UI that prioritizes readability, intuitive navigation, and a consistent design language while preserving the familiar student workflow.
 
 ---
 
-## Key Features
+## Why This Project?
+
+The objective of this redesign is not to change how students use the dashboard, but to make everyday tasks faster and more intuitive by improving the overall user experience.
+
+### Goals
+
+- Reduce visual clutter.
+- Improve readability.
+- Create a cleaner visual hierarchy.
+- Make important information easier to find.
+- Build a consistent and modern interface.
+- Enhance the overall student experience.
+
+---
+
+## Features
 
 - Modern and minimal interface
-- Responsive design for desktop and laptop screens
-- Improved navigation and page organization
+- Responsive layout
+- Improved navigation
 - Better typography and spacing
-- Card-based dashboard layout
-- Enhanced readability for academic information
-- Dark-theme optimized interface
-- Consistent color system across components
-- Cleaner presentation of student information
+- Card-based dashboard design
+- Dark-theme optimized UI
+- Consistent color system
+- Improved information hierarchy
 - Lightweight frontend implementation
+- Cleaner presentation of academic information
 
 ---
 
 ## Dashboard Improvements
 
-### Cleaner Layout
+### Dashboard
 
-Information is grouped into well-defined sections, making the dashboard easier to scan and reducing visual clutter.
+- Cleaner layout with improved spacing.
+- Better organization of information cards.
+- Clearer visual hierarchy.
 
-### Improved Navigation
+### Attendance
 
-The redesigned navigation keeps frequently used sections easier to access while maintaining a familiar workflow for students.
+- Improved percentage visibility.
+- Easier-to-read subject cards.
+- Better organization of attendance data.
 
-### Better Readability
+### Timetable
 
-Typography, spacing, and contrast have been refined to improve readability during long study sessions.
+- Cleaner schedule layout.
+- Improved spacing between time slots.
+- Better readability for daily classes.
 
-### Modern Components
+### Navigation
 
-Traditional layouts have been replaced with cleaner cards, better alignment, and more consistent interface elements.
-
-### Dark-First Experience
-
-The interface is designed around a dark-first approach that reduces visual strain while maintaining strong contrast.
+- Simplified navigation structure.
+- Better alignment of interface elements.
+- Faster access to commonly used sections.
 
 ---
 
 ## Design System
 
+The redesign follows a simple and consistent design system to maintain visual harmony across all pages.
+
 ### Color Palette
 
 | Color | Purpose |
-|--------|----------|
+|-------|---------|
 | `#0B1120` | Primary Background |
 | `#111827` | Secondary Background |
 | `#2563EB` | Primary Accent |
@@ -66,15 +87,15 @@ The interface is designed around a dark-first approach that reduces visual strai
 
 ### Typography
 
-The redesign uses a clear visual hierarchy with distinct heading, body, and secondary text styles to improve information scanning.
+The interface uses a clear visual hierarchy with distinct heading, body, and secondary text styles to improve readability.
 
 ### Layout Principles
 
 - Consistent spacing
 - Balanced alignment
-- Improved visual hierarchy
-- Reduced interface clutter
-- Better grouping of related information
+- Clear information hierarchy
+- Minimal visual clutter
+- Logical grouping of related content
 
 ---
 
@@ -84,7 +105,7 @@ The redesign uses a clear visual hierarchy with distinct heading, body, and seco
 - CSS3
 - JavaScript (ES6)
 
-The project is built without external UI frameworks, keeping the implementation lightweight and focused on core frontend technologies.
+The redesign is built using core frontend technologies without relying on external UI frameworks, keeping the project lightweight and easy to maintain.
 
 ---
 
@@ -109,7 +130,7 @@ Clone the repository.
 git clone https://github.com/PravithMohandas/pesu-dashboard-redesign.git
 ```
 
-Navigate into the project.
+Navigate to the project directory.
 
 ```bash
 cd pesu-dashboard-redesign
@@ -121,26 +142,23 @@ Run a local development server.
 python -m http.server 8000
 ```
 
-Open the project in your browser.
+Open your browser and visit:
 
-```
+```text
 http://localhost:8000
 ```
 
 ---
 
-## Design Goals
+## Performance Goals
 
-The redesign focuses on improving the student experience through practical UI changes rather than introducing unnecessary complexity.
+The redesign focuses on maintaining a fast and responsive user experience.
 
-The primary goals include:
-
-- reducing visual clutter
-- improving navigation efficiency
-- increasing readability
-- creating consistent UI components
-- making frequently used information easier to access
-- maintaining a familiar student workflow
+- Lightweight frontend
+- Fast page loading
+- Responsive layouts
+- Minimal JavaScript
+- Improved readability
 
 ---
 
@@ -159,15 +177,9 @@ The primary goals include:
 
 ---
 
-## Why This Project?
-
-This project serves as a practical frontend redesign exercise demonstrating modern interface design principles applied to a real-world student platform. It reflects an emphasis on usability, responsive layouts, accessibility, and clean visual design while remaining faithful to the original purpose of the dashboard.
-
----
-
 ## Disclaimer
 
-This is an independent redesign concept created for educational and portfolio purposes. It is not affiliated with, endorsed by, or connected to PES University. All trademarks and branding remain the property of their respective owners.
+This is an independent UI redesign created for educational and portfolio purposes. It is **not affiliated with, endorsed by, or connected to PES University**. All trademarks and branding remain the property of their respective owners.
 
 ---
 
@@ -175,4 +187,4 @@ This is an independent redesign concept created for educational and portfolio pu
 
 **Pravith Mohandas**
 
-Building practical software, AI, full-stack, and cybersecurity projects.
+*Building practical software, AI, full-stack, and cybersecurity projects.*
